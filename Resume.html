@@ -1,0 +1,490 @@
+<head>
+  
+  <title>Karl Burke - Resume</title> 	
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no">    
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
+        
+   
+ <link href="css/resume.css" rel="stylesheet">   
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+ <script src="example.js"></script>		
+ <script src="js/maps.js"></script>
+ <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>    		    
+    
+</head>
+
+<body onload="startTime()">
+
+    <nav class="navbar navbar-fixed-top navbar-default">
+    <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <label id="clock" class="navbar-brand"></label>
+            <a class="navbar-brand page-scroll" href="#main"></a>            
+        </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <!--
+            <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Link</a></li>
+            <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+            </ul>
+            </li>
+        </ul>-->      
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#main" class="page-scroll">Home</a></li>
+            <li><a href="#about" class="page-scroll">About Me</a></li>
+            <li><a href="#work" class="page-scroll">Work Experience</a></li>
+            <li><a href="#education" class="page-scroll">Education</a></li> 
+            <li><a href="#projects" class="page-scroll">Projects</a></li>  
+            <li><a href="#other" class="page-scroll">Find Me</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#myModal" class="page-scroll">Contact Karl</a></li>
+        </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+    </nav>
+
+    <section id="main" class="container content-section text-center">
+        <div class="container-fluid">
+            <div class="home">
+                <img src="images/Pic.jpg" alt="Pic" class="img-circle center-block" />
+                <h3 class="text-center">Karl Burke</h3>
+                <p class="text-center">IT Tallaght Computing Student</p>                
+                <div class="row">                
+                    <span class="fa-stack fa-2x">
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <i class="fa fa-circle fa-stack-2x" style="color:#3b5998"></i>
+                            <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                        </a>
+                    </span>
+                    <span class="fa-stack fa-2x">
+                        <a href="https://ie.linkedin.com/in/karl-burke-26576b93" target="_blank">
+                            <i class="fa fa-circle fa-stack-2x" style="color:black"></i>
+                            <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                        </a>
+                    </span>
+                    <span class="fa-stack fa-2x">
+                        <a href="https://twitter.com/karlburke1986" target="_blank">
+                            <i class="fa fa-circle fa-stack-2x" style="color:#0084b4"></i>
+                            <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                        </a>
+                    </span>
+                    <span class="fa-stack fa-2x">
+                        <a href="https://github.com/karlburke1986" target="_blank">
+                            <i class="fa fa-circle fa-stack-2x" style="color:black"></i>
+                            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                        </a>
+                    </span>
+                </div>
+                <div class="row">                   
+                    <a href="assets/KarlITCV.docx" class="btn btn-primary">Download CV</a>
+                    <a href="#" data-toggle="modal" data-target="#myModal" class="btn btn-primary">Contact Karl</a>                  
+                </div>
+            </div>
+        </div>
+    </section>    
+    
+    <section id="about" class="container content-section text-center">
+        <div class="home">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>About Me</h2>
+                <p class="text-justify">I am currently studying Computing in Institute of Technology Tallaght. I have also previously studied in St. Conleths CC Newbridge where I completed a FETAC level 5 in Business and IT and a FETAC level 6 in Computer Science. Though the Computer Science/Computing I have become familiar with both C# and Java programming languages. I have also used Microsoft Server 2003 and as apart of my Business and IT course I have completed modules which covered Microsoft Access and Microsoft Excel. I also use Microsoft Word on a day to day bases. I have good customer service skills which I have built up across my working life dealing with customers day in day out. I have worked as part of a team in both working environments and educational projects.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="work" class="container content-section text-center">
+        <div class="container-fluid">        
+            <div class="work">
+                <h2>Work Experience</h2>
+                <div class="col-md-12 row top-spacing">                    
+                    <div class="col-md-2 img-responsive">
+                        <a href="http://www.stconlethscc.ie/" target="_blank"><img src="images/ConlethsImage.png" alt="St. Conleths" class="img-fluid center-block" /></a>                         
+                    </div>                                  
+                    <div class="showmore_one col-md-10">
+                        <div class="col-md-6">
+                            <h4>January 2016-June 2016</h4>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>IT Intern</h4>
+                        </div>
+                        <hr/>
+                        <p class="text-justify">Developing Book Rental System,  Resolve IT Issues relating to Staff &amp; Students, Maintain School Hardware, Email Administration, Distribute Staff Assigned Emails to new staff, Reset and Update Staff Details and Passwords when needed, Assisted During Lab Demonstrations, Developed Moodle, Staff Introduction Training on Moodle</p>
+                    </div>
+                </div> 
+                <div class="col-md-12 row top-spacing">                    
+                    <div class="col-md-2 img-responsive">
+                        <a href="http://www.argos.ie/" target="_blank"><img src="images/argos1.jpg" alt="Argos" class="img-fluid center-block" /></a>                                                 
+                    </div>                                  
+                    <div class="showmore_one col-md-10">
+                        <div class="col-md-6">
+                            <h4>Nov 2012-Jan 2013&amp; Sept 2004- Mar 2008</h4>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Stock Room Assistant</h4>
+                        </div>
+                        <hr/>
+                        <p class="text-justify">Relating to and serving customers, analysing stock maintenance, ensuring minimum standards of hygiene are exceeded, checking daily deliveries, supervising deliveries when required, processing weekly stock checks,  processing stock returns to headquarters and manufacturers, use of the AURA stock control system, complying with the in store stock rotation SOPs, ensuring minimum security proceedings are exceeded, relocating to new store sites when required for training purposes, shift working. </p>
+                    </div>
+                </div>
+                <div class="col-md-12 row top-spacing">                    
+                    <div class="col-md-2 img-responsive">
+                        <a href="http://www.daa.ie/" target="_blank"><img src="images/daa-logoNEW.jpg" alt="DAA" class="img-fluid center-block" /></a>                            
+                    </div>                                  
+                    <div class="showmore_one col-md-10">
+                        <div class="col-md-6">
+                            <h4>Mar 2008- Nov 2010</h4>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Service Agent</h4>
+                        </div>
+                        <hr/>
+                        <p class="text-justify">Relating to and serving passengers, collecting and returning trolleys to designated trolley bays, working in departures, arrivals, baggage hall, apron, car parks, cleaning trolleys, car park vehicular patrols, use of radio communications systems, adhering to the airport security screening procedures, working as part of a large team, working on my own initiative, assisting in emergencies, shift working including nights and early mornings  </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>   
+    <section id="education" class="container content-section text-center">
+        <div class="container-fluid">        
+            <div class="work">
+                <h2>Education</h2>
+                <div class="col-md-12 row top-spacing">                    
+                    <div class="col-md-2 img-responsive">
+                        <a href="http://www.it-tallaght.ie/" target="_blank"><img src="images/Ittdublin.png" alt="Itt Dublin" class="img-fluid center-block" /></a>
+                    </div>                                  
+                    <div class="showmore_one col-md-10">
+                        <div class="col-md-6">
+                            <h4>September 2013-June 2017</h4>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Bachlor of Science (Honors) Computing</h4>
+                        </div>                        
+                        <hr/>
+                        <p class="text-justify">Web and User Experience, Computer Architecture,     Business and Information  
+                            Systems, Software Developmen, Communications, Operating Systems, Statistics, Discrete Maths, Databases, Object Orientated Systems Analysis,  Web Design and Development, Software Development, Database Design &amp; Programming, Software Quality Assurance &amp; Testing,  Networking, Discrete Maths 2, Management Science, Information Security, Object Orientated Analysis and Design
+                        </p>
+                    </div>
+                </div> 
+                <div class="col-md-12 row top-spacing">                    
+                    <div class="col-md-2 img-responsive">
+                        <a href="http://www.stconlethscc.ie/" target="_blank"><img src="images/ConlethsImage.png" alt="St. Conleths" class="img-fluid center-block" /></a>                        
+                    </div>                                  
+                    <div class="showmore_one col-md-10">
+                        <div class="col-md-6">
+                            <h4>September 2012-June 2013</h4>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>FETAC Level 6 in Computing</h4>
+                        </div>
+                        <hr/>
+                        <p class="text-justify">Networks, Windows Programming, Computer Programming, Object Orientated Programming, Operating Systems, Data Communications, Communications, Hardware Essentials</p>
+                    </div>
+                </div>
+                <div class="col-md-12 row top-spacing">                    
+                    <div class="col-md-2 img-responsive">
+                         <a href="http://www.stconlethscc.ie/" target="_blank"><img src="images/ConlethsImage.png" alt="St. Conleths" class="img-fluid center-block" /></a>                        
+                    </div>                                  
+                    <div class="showmore_one col-md-10">
+                        <div class="col-md-6">
+                            <h4>September 2011- June 2012</h4>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>FETAC Level 5 in Business &amp; IT</h4>
+                        </div>
+                        <hr/>
+                        <p class="text-justify">Book keeping, Spreadsheet Management, Text Production, Word Processing, Business Calculations, Communications, Database Management, Business Marketing  </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projects" class="container content-section text-center">
+        <div class="home">
+            <h2>Projects</h2>
+            <br/>
+            <div class="col-md-12">
+                <div class="col-md-4">
+                    <div id="ProjectCarousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active carouselHeight">       
+                                <a href="#" data-toggle="modal" data-target="#stockITModal">
+                                    <img src="images/StockIT4.png" alt="StockIT1">    
+                                </a> 
+                            </div>
+                            <div class="item carouselHeight">
+                                <a href="#" data-toggle="modal" data-target="#stockITModal">
+                                    <img src="images/StockIT2.png" alt="StockIT2">
+                                </a>                        
+                            </div>
+                            <div class="item carouselHeight">
+                                <a href="#" data-toggle="modal" data-target="#stockITModal">
+                                    <img src="images/StockIT2.png" alt="StockIT3">
+                                </a>
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#ProjectCarousel" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#ProjectCarousel" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <br/>
+                    <h3>StockIT</h3>
+                    <p>2nd Year Project</p>
+                </div>
+                <div class="col-md-4">
+                    <div id="ProjectCarousel2" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active carouselHeight">       
+                                <a href="#" data-toggle="modal" data-target="#bookModal">
+                                    <img src="images/BookSystem.png" alt="Book System">
+                                </a> 
+                            </div>
+                            <div class="item carouselHeight">
+                                <a href="#" data-toggle="modal" data-target="#bookModal">
+                                    <img src="images/BookSystem2.png" alt="Book System 2">
+                                </a>                        
+                            </div>
+                            <div class="item carouselHeight">
+                                <a href="#" data-toggle="modal" data-target="#bookModal">
+                                    <img src="images/BookSystem3.png" alt="Book system 3">
+                                </a>
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#ProjectCarousel2" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#ProjectCarousel2" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <br/>
+                    <h3>St. Conleths Book System</h3>
+                    <p>Work Placement Project developed in conjunction with St. Conleths CC Newbridge</p>
+                </div>
+                <div class="col-md-4">
+                    <div id="ProjectCarousel3" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active carouselHeight">       
+                                <a href="#" data-toggle="modal" data-target="#edsModal">
+                                    <img src="images/NaasSystem.png" alt="Naas System 1">
+                                </a> 
+                            </div>
+                            <div class="item carouselHeight">
+                                <a href="#" data-toggle="modal" data-target="#edsModal">
+                                    <img src="images/NaasSystem1.png" alt="Naas System 2">
+                                </a>                        
+                            </div>
+                            <div class="item carouselHeight">
+                                <a href="#" data-toggle="modal" data-target="#edsModal">
+                                    <img src="images/NaasSystem2.png" alt="Naas System3 ">
+                                </a>
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#ProjectCarousel3" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#ProjectCarousel3" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <br/>
+                    <h3>EDS Training Solutions System</h3>
+                    <p>Project done in conjunction with EDS Training Solutions</p>
+                </div>
+            </div>
+        </div>    
+    </section>
+    
+    <section id="other" class="container content-section text-center">
+        <div class="container-fluid col-md-12">
+            <h2>Find Me</h2>
+            <div class="col-md-12" align="left">
+                    <div class="col-md-3">
+                        <span class="fa-stack fa-2x">
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <i class="fa fa-circle fa-stack-2x" style="color:#3b5998"></i>
+                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>                                
+                            </a>
+                        </span>
+                    </div>
+                    <div class="col-md-3">
+                        <span class="fa-stack fa-2x">
+                        <a href="https://ie.linkedin.com/in/karl-burke-26576b93" target="_blank">
+                            <i class="fa fa-circle fa-stack-2x" style="color:black"></i>
+                            <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                        </a>
+                    </span>
+                    </div>
+                    <div class="col-md-3">
+                        <span class="fa-stack fa-2x">
+                        <a href="https://twitter.com/karlburke1986" target="_blank">
+                            <i class="fa fa-circle fa-stack-2x" style="color:#0084b4"></i>
+                            <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                        </a>
+                    </span>
+                    </div>
+                    <div class="col-md-3" aligh="right">
+                        <span class="fa-stack fa-2x">
+                        <a href="https://github.com/karlburke1986" target="_blank">
+                            <i class="fa fa-circle fa-stack-2x" style="color:black"></i>
+                            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                        </a>
+                    </span>
+                    </div>
+            </div>
+            <div class="other col-md-12">
+                <div class="map-responsive">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2384.9148142643185!2d-6.365182384073267!3d53.291060986551884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670b4b8ec071f5%3A0xb6cf7501e0d9522a!2sITT+Dublin!5e0!3m2!1sen!2sie!4v1480814571364" width="100%" height="50%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>            
+        </div>
+    </section>    
+        
+    
+    <div id="myModal" class="modal fade" aria-labelledby="myModalLabel" aria-hidden="true" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title">Contact Karl</h4>
+                </div>
+                <div class="modal-body" id="myModalBody">
+                    <form id="contactform" role="form" >
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" placeholder="Enter Name" class="form-control"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="emailid">Email Address</label>
+                            <input type="text" id="emailid" placeholder="Email Address"  class="form-control" />
+                        </div>                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="4" placeholder="Message" class="form-control"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-success" id="sendButton">Send Mail</button>
+                    <button type="submit" class="btn btn-default" data-dismiss="modal" aria-hidden="true">Close</button>                    
+                    <div class="alert alert-success">
+                        <strong>Success!</strong> Your message has been sent
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div id="stockITModal" class="modal fade" aria-labelledby="myModalLabel" aria-hidden="true" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title">StockIT - Features</h4>
+                </div>
+                <div class="modal-body" id="myModalBody">
+                    <ul style="list-style-type:disc padding-left:20px">
+                        <li>Secure Logins</li>
+                        <li>Add Stock</li>
+                        <li>Remove Stock</li>
+                        <li>Add New Users</li>
+                        <li>Remove Users</li>
+                        <li>Receive Card Payments</li>
+                        <li>Multi Level Users</li>
+                    </ul>
+                </div>                
+            </div>
+        </div>
+    </div>
+    
+    <div id="bookModal" class="modal fade" aria-labelledby="myModalLabel" aria-hidden="true" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title">St. Conleths Book System - Features</h4>
+                </div>
+                <div class="modal-body" id="myModalBody">
+                    <ul style="list-style-type:disc padding-left:20px">
+                        <li>Secure Logins</li>
+                        <li>Add Stock</li>
+                        <li>Remove Stock</li>
+                        <li>Add New Users</li>
+                        <li>Remove Users</li>
+                        <li>Add New Students</li>
+                        <li>Remove Students</li>
+                        <li>Stock Count Print outs</li>
+                        <li>Creates Unique Book Labels</li>
+                        <li>Integrated Barcode Scanner</li>
+                    </ul>
+                </div>                
+            </div>
+        </div>
+    </div>
+    
+    <div id="edsModal" class="modal fade" aria-labelledby="myModalLabel" aria-hidden="true" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title">EDS Training Solutions System - Features</h4>
+                </div>
+                <div class="modal-body" id="myModalBody">
+                    <ul style="list-style-type:disc padding-left:20px">
+                        <li>Secure Logins</li>
+                        <li>Add Contacts</li>
+                        <li>Remove Contacts</li>
+                        <li>Add New Users</li>
+                        <li>Remove Users</li>
+                        <li>Add New CPC Students</li>
+                        <li>Remove CPC Students</li>
+                        <li>Add New Course</li>
+                        <li>Add Quilifications to Students</li>
+                        <li>User Prompts</li>
+                    </ul>
+                </div>                
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/scroll.js"></script>    
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/show.js"></script>
+    <script src="js/popup.js"></script>   
+    <script src="js/clock1.js"></script>
+    <script src="js/alertFade.js"></script>
+</body>    

@@ -1,0 +1,85 @@
+.home {
+  display: table;
+  width: 100%;
+  height: 100%;
+  padding: 100px 0;
+  text-align: center;  
+}
+
+.work{
+  display: table;
+  width: 100%;
+  height: 100%;
+  padding: 100px 0;
+  text-align: center; 
+  vertical-align: middle;
+  float: none;
+}
+
+.other{
+    align-items:flex-end;
+    width: 100%;
+    height: 100%;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;    
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:50%;
+    width:100%;
+    position:absolute;
+}
+.top-spacing{
+    margin-top: 20px;
+}
+.carouselHeight{
+    max-height: 160px;
+    overflow: hidden;
+}
+#pColour{
+    color: black;
+}
+body{
+    background-color: #ECECEA;
+    background-image: url('../images/restaurant.png');
+} 
+h4{
+    text-align: left;
+}
+.fa-facebook:hover{
+    color: red;
+}
+.fa-linkedin:hover{
+    color: red;
+}
+.fa-twitter:hover{
+    color: red;
+}
+.fa-github:hover{
+    color: red;
+}
+.alert{
+    display: none;
+}
+
+
+
+html, body, div, h1, h3, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p, blockquote, pre, form, fieldset, table, th, td { margin: 0; padding: 0; font-family:Arial, Helvetica, sans-serif; }
+html					{ overflow-y:scroll; }
+page   					{ width:100%; margin:0 auto; padding:50px 0 0 0; }
+.block 					{ border:1px solid #ddd; line-height:18px; font-size:12px; padding:15px; margin:0 0 20px 0; }
+.block h2				{ color:#EF4034; border-bottom:2px solid #ddd; font-size:20px; font-weight:bold; padding:0 0 8px 0; margin:0 0 20px 0;}
+.block p				{ margin:0 0 20px 0; }
+			
+
+.showmore_content		{ position:relative; overflow:hidden; }			
+.showmore_trigger 		{ width:100%; height:45px; line-height:45px; cursor:pointer; }
+.showmore_trigger span	{ display:block; }
+		
+
